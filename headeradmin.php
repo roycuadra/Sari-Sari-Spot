@@ -5,6 +5,7 @@
       <a href="#" class="logo" style="font-family:cursive;">Roy Online Store</a>
 
       <nav class="navbar">
+         <a href="logout.php" class="logout-link"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
       </nav>
 
       <?php
@@ -14,7 +15,6 @@
 
       ?>
 
-      <a href="cart.php" class="cart">cart <span><?php echo $row_count; ?></span> </a>
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
