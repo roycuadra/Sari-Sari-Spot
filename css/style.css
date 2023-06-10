@@ -8,7 +8,7 @@
    --white:#fff;
    --bg-color:#eee;
    --dark-bg:rgba(0,0,0,.7);
-   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --box-shadow:0 0 50px 0 rgba(0, 0, 0, 0.295);
    --border:.1rem solid #999;
 }
 
@@ -267,6 +267,7 @@ section{
    grid-template-columns: repeat(auto-fit, 35rem);
    gap:1.5rem;
    justify-content: center;
+   
 }
 
 .products .box-container .box{
@@ -275,6 +276,9 @@ section{
    box-shadow: var(--box-shadow);
    border:var(--border);
    border-radius: .5rem;
+   background-color: white;
+   margin-left: 2rem ;
+   margin-bottom: 2rem ;
 }
 
 .products .box-container .box img{

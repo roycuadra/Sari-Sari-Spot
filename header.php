@@ -2,7 +2,7 @@
 
    <div class="flex">
 
-      <a href="#" class="logo" style="font-family:cursive;">Roy Online Store</a>
+      <a href="#" class="logo" style="font-family:cursive;font-syle:bold;">Sari-Sari Spot</a>
 
       <nav class="navbar">
       </nav>
